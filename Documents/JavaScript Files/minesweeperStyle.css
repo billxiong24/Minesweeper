@@ -1,0 +1,84 @@
+#board{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 408px;
+	width: 610px;
+	height: 600px;
+	border: solid black 1px;
+	background-color: #949494;
+
+}
+
+ td{
+ 	font-weight: bold;
+ 	font-size: 9px;
+ 	font: Helvetica;
+    text-align: center;
+    background-color: #E5E5E5;
+    width: 10px;
+    height: 10px;
+}
+#buttons{
+	position:absolute;
+	left: 560px;
+	top: 6px;
+}
+.difficulty{
+	position:relative;
+	display: inline;
+	margin:4px;
+}
+#time{
+	float: right;
+	position: absolute;
+	display: inline;
+	left: 983px;
+	top: 15px;
+}
+
+#start{
+	background-color: #C1FFC1;
+	border: solid #707070 1px;
+	font-family: Tahoma;
+	font-size: 25px;	
+	z-index: 105;
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	top: 190px;
+	left: 60px;
+}
+
+#menu{
+	z-index: 105;
+	background-color: #E0EEE0;
+	text-align: left;
+	font-size: 25px;
+	border: solid black 1px;
+	position: absolute;
+	top: 150px;
+	left: 557px;
+	width: 320px;
+	height: 270px;
+}
+
+#title{
+	margin: 73px; 
+	font-family: Verdana;
+}
+#mine{
+	width: 150px;
+	margin-left: 90px;
+}
+
+#gameMine{
+	width:8px;
+}
+
+#numFlags{
+	position: absolute;
+	left: 430px;
+}
+#number{
+	
+}
